@@ -1,0 +1,1 @@
+cmd_jandax/include/linux/nfc/.install := /bin/bash ../scripts/headers_install.sh jandax/include/linux/nfc ../include/uapi/linux/nfc nfcinfo.h ntaginfo.h; /bin/bash ../scripts/headers_install.sh jandax/include/linux/nfc ./include/generated/uapi/linux/nfc ; touch jandax/include/linux/nfc/.install

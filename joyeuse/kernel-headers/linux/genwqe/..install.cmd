@@ -1,0 +1,1 @@
+cmd_jandax/include/linux/genwqe/.install := /bin/bash ../scripts/headers_install.sh jandax/include/linux/genwqe ../include/uapi/linux/genwqe genwqe_card.h; /bin/bash ../scripts/headers_install.sh jandax/include/linux/genwqe ./include/generated/uapi/linux/genwqe ; touch jandax/include/linux/genwqe/.install

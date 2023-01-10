@@ -1,0 +1,1 @@
+cmd_jandax/include/linux/caif/.install := /bin/bash ../scripts/headers_install.sh jandax/include/linux/caif ../include/uapi/linux/caif caif_socket.h if_caif.h; /bin/bash ../scripts/headers_install.sh jandax/include/linux/caif ./include/generated/uapi/linux/caif ; touch jandax/include/linux/caif/.install

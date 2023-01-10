@@ -1,0 +1,1 @@
+cmd_jandax/include/misc/.install := /bin/bash ../scripts/headers_install.sh jandax/include/misc ../include/uapi/misc cxl.h; /bin/bash ../scripts/headers_install.sh jandax/include/misc ./include/generated/uapi/misc ; touch jandax/include/misc/.install

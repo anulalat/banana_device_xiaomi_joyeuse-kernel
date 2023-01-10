@@ -1,0 +1,1 @@
+cmd_jandax/techpack/audio/include/linux/mfd/.install := /bin/bash ../scripts/headers_install.sh jandax/techpack/audio/include/linux/mfd ../techpack/audio/include/uapi/linux/mfd ; /bin/bash ../scripts/headers_install.sh jandax/techpack/audio/include/linux/mfd ./techpack/audio/include/generated/uapi/linux/mfd ; touch jandax/techpack/audio/include/linux/mfd/.install

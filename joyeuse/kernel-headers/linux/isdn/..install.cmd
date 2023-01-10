@@ -1,0 +1,1 @@
+cmd_jandax/include/linux/isdn/.install := /bin/bash ../scripts/headers_install.sh jandax/include/linux/isdn ../include/uapi/linux/isdn capicmd.h; /bin/bash ../scripts/headers_install.sh jandax/include/linux/isdn ./include/generated/uapi/linux/isdn ; touch jandax/include/linux/isdn/.install

@@ -1,0 +1,1 @@
+cmd_jandax/include/linux/spi/.install := /bin/bash ../scripts/headers_install.sh jandax/include/linux/spi ../include/uapi/linux/spi spidev.h; /bin/bash ../scripts/headers_install.sh jandax/include/linux/spi ./include/generated/uapi/linux/spi ; touch jandax/include/linux/spi/.install
